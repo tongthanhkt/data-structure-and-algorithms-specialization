@@ -14,8 +14,8 @@ public class MaximumValueOfTheLoot {
         }
         for(int i = 0; i < costAndWeights.length; i++){
             for(int j = i+1; j < costAndWeights.length; j++){
-                float pricePerOne =(float) costAndWeights[i][0] / costAndWeights[i][1];
-                float pricePerTwo = (float) costAndWeights[j][0] / costAndWeights[j][1];
+                double pricePerOne =(double) costAndWeights[i][0] / costAndWeights[i][1];
+                double pricePerTwo = (double) costAndWeights[j][0] / costAndWeights[j][1];
                 if(pricePerTwo > pricePerOne){
                     int temp[] = new int[2];
                     temp[0] = costAndWeights[i][0];
