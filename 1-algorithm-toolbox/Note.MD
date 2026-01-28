@@ -1,1 +1,0 @@
-https://alexanderskulikov.github.io/files/toolbox_statements.pdf
